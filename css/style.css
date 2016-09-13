@@ -1,0 +1,134 @@
+/****************************************
+Nintendo 64 Colours
+*****************************************/
+    /* Red      = #FE2015
+    /* Green    = #069330
+    /* Blue     = #0222A9
+    /* Yellow   = #FFC001
+
+/* Other colours I like:
+
+/* Set 1: (Dark Theme, could use a yellow in here)
+
+    /* Pink     = #EC3F8B
+    /* Blue     = #39B1C6
+    /* Green    = #1FD26A
+    /* Purple   = #25242C (Dark Color for Background)
+    /* Purple   = #32313B (Slightly lighter colour then above)
+    /* White    = #DDDDDD
+
+/* Set 2:
+
+
+
+/****************************************
+General
+*****************************************/
+body {
+    background-color: #ddd;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+
+
+/****************************************
+Header
+*****************************************/
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+    background-color: #32313B;
+    background-image: url(../img/header.png);
+}
+
+#logo {
+ text-align:center;
+ color: #ddd;
+ margin: 0;
+ font-weight: 800;
+}
+
+h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    /*font-family: 'Russo One', sans-serif;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Audiowide', cursive;*/
+  margin: 15px 0;
+  font-size: 3em;
+  font-weight: 800;
+  line-height: 0.8em;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+
+
+/****************************************
+Navigation Menu
+*****************************************/
+nav {
+    background-color: #25242C;
+    text-align: center;
+    margin: 40px 0 0;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px 0 5px 0;
+}
+
+nav a, nav a:visited {
+    color: #ddd;
+    font-weight: 800;
+    padding: 15px 15px;
+}
+
+nav li a:hover {
+    color: #ddd;
+    padding: 15px 15px;
+    background-color: #EC3F8B;
+}
+
+.selected {
+    padding: 15px 15px;
+    background-color: #EC3F8B;
+}
+
+.nav li.home a {
+    background-image: url('../img/Master Ball.svg');
+}
+
+.nav li.gallery a {
+    background-image: url('../img/mail.png');
+}
+.nav li.tutorials a {
+    background-image: url('../img/twitter.png');
+}
+
+.nav li.about a {
+    background-image: url('../img/phone.png');
+}
