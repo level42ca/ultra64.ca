@@ -1,2 +1,2 @@
 # ultra64.ca
-FixThing.ca
+ultra64.ca
